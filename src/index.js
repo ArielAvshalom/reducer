@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Counter from "./App";
+import Counter2 from "./Reducer";
+import Component1 from "./test";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <Counter />
+      <br></br>
+    <Counter2 />
+
+      <br></br>
+    <Component1 />
+  </>,
   document.getElementById('root')
 );
 
